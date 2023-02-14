@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5501/demo'/Rec.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/rec.css">
+</head>
+<body>
+    <h1>Blåbärspannkakor!</h1>
+    <p></p>God och spännande variant av den klassiska pannkakan. Blåbärspannkaka är ett mättande och uppskattat alternativ till lunch, middag eller kanske som mellanmål. Servera blåbärspannkakor med en klick vaniljglass.
+    <img src="./Document_files/f4ad7250-97a9-4584-a49f-8321348efd9b.jpg" alt="">
+    <h2>Ingredienser</h2>
+    <p>3 ägg
+ 6 dl mjölk
+ 2 1/2 dl vetemjöl
+1 msk socker
+1/2 tsk salt
+300 g djupfrysta blåbär
+1/2 dl florsocke
+</p><p>Gör så här:</p>
+<p>Sätt ugnen på 200°C.
+    Vispa ihop äggen och hälften av mjölken. Tillsätt mjölet och vispa till en klumpfri smet. Häll i resten av mjölken och tillsätt socker och salt.
+    Häll smeten i en lätt smord långpanna, ca 30x40 cm (för 4 port). Strö på blåbären. Grädda i ca 25 min.
+    Pudra över florsockret och servera blåbärspannkakor skuren i bitar med en klick vaniljglass.</p>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
